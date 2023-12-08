@@ -1,0 +1,419 @@
+#main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#resume-content {
+  width: 612px;
+  height: 102px;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#name {
+  color: #fff;
+  font-family: Exo;
+  font-size: 33.6px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 45px;
+}
+
+#job-title {
+  color: #fff;
+  font-family: Exo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 21px;
+}
+
+#work-and-details {
+  display: flex;
+  flex-direction: row;
+  width: 612px;
+}
+
+#details-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 194.25px;
+  height: auto;
+  background-color: #f7f7f7;
+  gap: 16px;
+  padding-top: 9px;
+}
+
+#work-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 418px;
+  height: auto;
+  background-color: #ffffff;
+  padding-left: 17px;
+  padding-top: 8px;
+}
+
+#resume-description-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+#profile-heading {
+  color: #212529;
+  font-family: Exo;
+  font-size: 15.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#profile-description {
+  width: 161px;
+  color: #212529;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#contact-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+#contact-heading {
+  color: #212529;
+  font-family: Exo;
+  font-size: 15.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#social-icons-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 11.338px;
+}
+
+#icons-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#icons-text-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+#icon-text {
+  color: #212529;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#skills-div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 150px;
+}
+
+#skills-heading {
+  color: #212529;
+  font-family: Exo;
+  font-size: 15.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#hard-skills-div {
+  display: flex;
+  padding-left: 6px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+#hard-skills-heading {
+  color: #212529;
+  font-family: Exo;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#hard-skills-list {
+  display: flex;
+  padding-left: 6px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-left: 15px;
+}
+
+#hard-skills-list-text {
+  color: #212529;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#soft-skills-heading {
+  color: #212529;
+  font-family: Exo;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 5px;
+}
+
+#interest-div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+#interest-heading {
+  color: #212529;
+  font-family: Exo;
+  font-size: 15.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#work-experience-heading {
+  color: #212529;
+  font-family: Exo;
+  font-size: 15.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#work-experience-div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  margin-top: 10px;
+}
+
+#job-title-heading {
+  color: #212529;
+  font-family: Lato;
+  font-size: 15.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#company-name {
+  color: #212529;
+  font-family: Lato;
+  font-size: 12.3px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#job-duration {
+  color: #212529;
+  font-family: Lato;
+  font-size: 12.3px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#job-description {
+  color: #212529;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 372px;
+  padding-left: 25px;
+}
+
+#job-duration-text {
+  color: #212529;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#education-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+#education-heading {
+  color: #212529;
+  font-family: Exo;
+  font-size: 15.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#education-description-main-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 330px;
+}
+
+#education-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  margin-top: 6px;
+}
+
+#education-text {
+  color: #212529;
+  font-family: Lato;
+  font-size: 12.3px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#repo-link {
+  color: #212529;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 35px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+#repo-link-git {
+  color: #007bff;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-left: 5px;
+}
+
+#github-profile-link {
+  color: #007bff; /* blue color */
+  font-family: Lato; /* Lato font */
+  font-size: 11px; /* same font size as #icon-text */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none; /* no underline */
+}
+
+#email-link {
+  color: #212529; /* or any other color you want */
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: underline; /* if you don't want it underlined */
+}
+
+#phone-link {
+  color: #212529; /* or any other color you want */
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none; /* if you don't want it underlined */
+}
+
+#Dhoondhley-url {
+  color: #007bff; /* blue color */
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none; /* no underline */
+}
+
+#Dhoondhley-link {
+  color: #007bff; /* blue color */
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: underline; /* no underline */
+}
+
+#job-duration-text .special-link {
+  color: #007bff; /* This will apply the blue color to your link */
+}
+
+#job-duration-text .special-link-underline {
+  color: #007bff; /* blue color */
+  text-decoration: underline; /* this will underline the text */
+}
+
+#Dhoondhley-link {
+  color: #007bff; /* blue color */
+  text-decoration: underline; /* this will underline the text */
+  display: inline; /* ensure it does not break the line */
+}
+
+#Dhoondhley-url {
+  color: #007bff; /* blue color */
+  text-decoration: none; /* this will underline the text */
+  display: inline; /* ensure it does not break the line */
+}
+
