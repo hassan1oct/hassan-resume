@@ -1,14 +1,10 @@
-import chromium from "chrome-aws-lambda";
+import puppeteer from "puppeteer";
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
     try {
-      const browser = await puppeteer.launch({
-        args: chromium.args,
-        defaultViewport: chromium.defaultViewport,
-        executablePath: await chromium.executablePath,
-        headless: chromium.headless,
-      });
+      const browser = await puppeteer.launch({ignoreDefaultArgs: ['--disable-extensions']})
+
       const page = await browser.newPage();
 
       // Tailwind CSS from CDN
