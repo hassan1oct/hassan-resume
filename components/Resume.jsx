@@ -225,7 +225,7 @@ const Resume = () => {
       <span className="ml-auto text-sm">
         <span>Code on </span>
         <a
-          href="https://github.com/your-repo-url"
+          href="https://github.com/hassan1oct/hassan-resume"
           target="_blank"
           className="text-blue-500 hover:underline"
         >
