@@ -1,4 +1,3 @@
-import puppeteer from "puppeteer";
 import chromium from "chrome-aws-lambda";
 
 export default async function handler(req, res) {
